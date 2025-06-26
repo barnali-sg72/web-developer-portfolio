@@ -176,14 +176,16 @@ export default function ProjectDetails() {
             <p className="text-slate-800 dark:text-slate-300 text-sm md:text-base w-full md:w-2/3 ">
               {project.description}{" "}
             </p>
-            <a
-              href={project.liveDemo}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex gap-2 items-center px-4 py-2 bg-indigo-500 hover:bg-indigo-600 rounded-full text-white font-semibold transition"
-            >
-              <ExternalLink size={16} /> Live Demo
-            </a>
+            {project.liveDemo && (
+              <a
+                href={project.liveDemo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex gap-2 items-center px-4 py-2 bg-indigo-500 hover:bg-indigo-600 rounded-full text-white font-semibold transition"
+              >
+                <ExternalLink size={16} /> Live Demo
+              </a>
+            )}
             {/*<div className="flex flex-col items-center justify-center mt-5">
               <span class="animate-bounce text-indigo-500 text-3xl">
                 &darr;
@@ -303,18 +305,18 @@ export default function ProjectDetails() {
               </div>
 
               <div className=" flex flex-row justify-center items-center ">
-                <div className="w-1/3 sm:w-1/2 flex flex-col overflow-hidden justify-center items-center border border-gray-600  rounded-lg sm:rounded-xl md:rounded-2xl">
+                <div className="w-1/2 sm:w-[70%] lg:w-[50%] flex flex-col overflow-hidden justify-center items-center border border-gray-600  rounded-2xl">
                   <img
                     src={project.tabletImage}
                     alt="tablet"
-                    className=" w-full h-full rounded-lg sm:rounded-xl md:rounded-2xl  border-4 border-gray-500 dark:border-gray-400  "
+                    className=" w-full h-full rounded-2xl  border-4 border-gray-500 dark:border-gray-400  "
                   />
                 </div>
-                <div className="w-1/6 sm:w-1/4 flex flex-col overflow-hidden justify-center items-center rotate-12 border border-gray-600  rounded-lg sm:rounded-xl md:rounded-2xl">
+                <div className="w-1/4 sm:w-1/3 lg:w-1/4 flex flex-col overflow-hidden justify-center items-center rotate-12 border border-gray-600  rounded-2xl">
                   <img
                     src={project.phoneImage}
                     alt="phone"
-                    className="w-full h-full rounded-lg sm:rounded-xl md:rounded-2xl  border-4 border-gray-500 dark:border-gray-400  "
+                    className="w-full h-full rounded-2xl  border-4 border-gray-500 dark:border-gray-400  "
                   />
                 </div>
               </div>
@@ -327,20 +329,20 @@ export default function ProjectDetails() {
               className="w-full grid sm:grid-cols-2   p-10  gap-10"
             >
               <div className="flex flex-row justify-center items-center gap-5">
-                <div className="w-1/6 sm:w-1/4 flex flex-col overflow-hidden justify-center items-center border border-gray-600 -rotate-12 rounded-lg sm:rounded-xl md:rounded-2xl">
+                <div className="w-1/4 sm:w-1/3 lg:w-1/4  flex flex-col overflow-hidden justify-center items-center border border-gray-600 -rotate-12 rounded-2xl">
                   <img
                     src={project.phoneImage1}
                     alt="phone1"
                     className="   w-full h-full  justify-self-center border-4 border-gray-500 dark:border-gray-400  
-                  rounded-lg sm:rounded-xl md:rounded-2xl"
+                  rounded-2xl"
                   />
                 </div>
-                <div className="w-1/6 sm:w-1/4 flex flex-col overflow-hidden justify-center items-center border border-gray-600 rotate-12 rounded-lg sm:rounded-xl md:rounded-2xl">
+                <div className="w-1/4 sm:w-1/3 lg:w-1/4  flex flex-col overflow-hidden justify-center items-center border border-gray-600 rotate-12 rounded-2xl">
                   <img
                     src={project.phoneImage2}
                     alt="phone2"
                     className="  w-full h-full justify-self-center border-4 border-gray-500  dark:border-gray-400  
-                  rounded-lg sm:rounded-xl md:rounded-2xl"
+                  rounded-2xl"
                   />
                 </div>
               </div>
