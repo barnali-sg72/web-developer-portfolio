@@ -1,0 +1,25 @@
+Software Engineer (February 2006 - February 2024)
+Customer Care Inc. (CCI), San Ramon, CA
+
+Summary: Worked on multiple projects for our client AT&T, which included developing and maintaining web and real-time streaming applications for Call Center, WiFi Services, U-verse, STEM and others.
+
+Project: GIN - next-generation network management and analytics platform (January 2020 - February 2024)
+Contributed to the development and design of this next-generation network management and analytics platform utilizing technologies such as Golang, Java, JavaScript, TypeScript, React JS, Docker, Kubernetes, AWS, Dgraph, Kiali, TOSCA, etc.
+Researched and analyzed various technologies required for the application.
+Enhanced UI with additional dashboards, integrated Single Sign-On authentication and added role-based access control to the various components.
+
+Project: Foxstream Real-time Application (April 2015 -June 2023)
+Developed and enhanced this real-time streaming application using Java, Spring Boot, Kafka, Zookeeper, Ambari, Postgres, Python, Grafana, RHEL, etc.
+Managed and supported 550 production AT&T servers and performed troubleshooting for complex issues, ensuring uninterrupted service.
+Led the upgrade and deployment of newer versions of critical services and software in the production environment.
+
+Project: Adaptive Call Router Web Application (February 2006 - December 2022)
+Developed and maintained this web-based application for AT&T's call center routing technology, utilizing Java, Spring Framework, Hibernate, Oracle, Struts, Stripes, Ext JS, Wildfly, Tomcat, HTML, CSS, and other technologies.
+Conducted requirement analysis, designed and implemented features,  provided user training and support and mentored and led a small team of coworkers.
+
+
+
+System Analyst (March 1996 - March 2001)
+Tata Consultancy Services, India		
+
+Summary: Engaged as a System Analyst for various clients including GE Capital Finance, Amalgamated Bank of South Africa, Credit Suisse Private Banking, and Prudential Insurance.

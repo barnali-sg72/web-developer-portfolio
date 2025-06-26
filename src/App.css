@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,500,600,700,800");
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,900");
+@import url("https://fonts.googleapis.com/css?family=Inria Sans");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bebas Neue", sans-serif;
+}*/
+
+header {
+  position: sticky;
+}
+
+/* Hero Section */
+
+/*.navbar {
+  background-image: linear-gradient(
+    to bottom,
+    black,
+    rgb(2, 2, 95),
+    rgb(134, 1, 250)
+  );
+}*/
+.hero-bg-dark {
+  background: linear-gradient(
+    315deg,
+    #4465d3,
+    #020a86,
+    #010331,
+    #023342,
+    #0a708f,
+    #09ccda
+  );
+}
+
+.hero-bg-light {
+  background: radial-gradient(ellipse, #b2eff7, #dcf2f4, #d5ddfd);
+}
+
+/*@layer base {
+  .hero-background {
+    @apply background: radial-gradient(ellipse, #b2eff7, #dcf2f4, #d5ddfd);
+  }
+
+  .dark .dark\:hero-background {
+    @apply bg-black;
+  }
+}*/
+
+/*.avatar-bg {
+  /*padding: 20px;
+  margin: -20px;
+  img {
+    filter: drop-shadow(0 0 0.75rem #486be1);
+    backdrop-filter: blur(15px) saturate(3);
+  }*/
+/*background: radial-gradient(#1c44f8 60%, transparent);
+  img {
+    backdrop-filter: blur(15px);
+  }
+}*/
+
+.skills svg {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.skills img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+/*p {
+  color: #94a3b8;
+}*/
+
+.image-list {
+  scrollbar-width: none;
+}
+
+.image-item {
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+      to top,
+      #1e293bb0 30%,
+      transparent
+    ); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+    color: white;
+
+    padding: 25px;
+    text-align: center;
+  }
+}
+.image-item:hover .overlay {
+  opacity: 1;
+}
+
+.selected-dark {
+  div img {
+    box-shadow: 0 4px 20px 5px #a5f3fc !important;
+  }
+}
+
+.selected-light {
+  div img {
+    box-shadow: 0 4px 20px #6366f1;
+  }
+}
+
+button.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.desk-shadow-wrapper {
+  display: inline-block;
+  position: relative;
+}
+.desk-shadow-wrapper img {
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+.desk-shadow-wrapper::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 20px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.22) 0%,
+    rgba(0, 0, 0, 0.08) 80%,
+    transparent 100%
+  );
+  z-index: 1;
+  filter: blur(2px);
+}
+
+/*.project:hover .project-overlay {
+  opacity: 1;
+  display: block;
+}*/
+
+/*.device-iphone-14 {
+  width: 150px;
+  height: calc(150px * 2.164);
+  background: #000;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  .device-frame {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    .device-content img {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      object-fit: contain;
+    }
+  }
+}
+
+.device-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.device-frame {
+  overflow: hidden;
+}
+
+
+.responsive-device {
+  max-width: 100%;
+  margin: 0 auto;
+  transform: scale(1);
+  transform-origin: top center;
+}
+
+@media (max-width: 1024px) {
+  .responsive-device {
+    transform: scale(0.85);
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-device {
+    transform: scale(0.65);
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-device {
+    transform: scale(0.5);
+  }
+}
+
+
+.device-wrapper {
+  overflow: hidden;
+  padding: 2rem 0;
+}
+
+.device .device-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}*/
+
+.device-wrapper {
+  position: relative;
+  width: 15vw;
+  height: calc(15vw * 2.164);
+}
+
+.device-wrapper .device {
+  transform-origin: top left;
+  width: max-content;
+}
+/* Silver variant for iPhone frame */
+.device-silver .device-frame,
+.device-silver .device-stripe,
+.device-silver .device-header,
+.device-silver .device-sensors,
+.device-silver .device-btns,
+.device-silver .device-power {
+  background-color: #e0e0e0; /* Silver tone */
+}
+
+.device-silver .device-frame {
+  border-color: #c0c0c0;
+}
+
+.device .device-content {
+  overflow: hidden;
+  border-radius: 2rem; /* Optional: matches device screen shape */
+  height: 100%;
+}
+
+.device .device-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Or use contain if you want the whole image visible */
+
+  vertical-align: top;
+}

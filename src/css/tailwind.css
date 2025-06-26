@@ -1,0 +1,18 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer utilities {
+  input:-webkit-autofill {
+    @apply bg-white text-black shadow-inner;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+    -webkit-text-fill-color: #000 !important;
+  }
+
+  input.dark:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #1f2937 inset !important;
+    -webkit-text-fill-color: #f9fafb !important;
+  }
+}

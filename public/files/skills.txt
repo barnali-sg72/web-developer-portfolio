@@ -1,0 +1,6 @@
+Web Technologies: React, HTML, CSS, Bootstrap, Tailwind, JQuery
+Programming Languages: JavaScript, TypeScript, Java, Golang, Python
+Frameworks: Nodejs, Express, Spring Boot, Hibernate
+DevOps: Docker, Kubernetes, Kafka, Zookeeper
+Databases: Oracle, Postgres, Dgraph, MySQL, MongoDB
+Other: AWS, Linux, Windows, VS Code,  Github, Eclipse, Maven, Microservices, Full-stack, REST API
