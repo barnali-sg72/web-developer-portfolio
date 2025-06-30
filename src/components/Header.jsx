@@ -14,7 +14,7 @@ const Header = () => {
         href={AppView === "Single Page" ? "/#hero" : "/home"}
         className="flex items-center"
       >
-        <img className=" w-14 h-14" src={logo} alt="logo" />
+        <img className=" w-14 h-14" src={logo} alt="logo" loading="lazy" />
       </a>
       {/*{AppView === "Single Page" ? <NavbarSinglePage /> : <NavbarMultiPage />}*/}
       <Navbar />

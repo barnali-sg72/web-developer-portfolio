@@ -222,6 +222,7 @@ export default function ProjectDetails() {
                           src={src.img}
                           alt={`Image ${i + 1}`}
                           className="  w-full  object-cover   "
+                          loading="lazy"
                         />
                         <div className="overlay w-full font-semibold text-sm">
                           {" "}
@@ -255,6 +256,7 @@ export default function ProjectDetails() {
                       src={src.img}
                       alt={`Image ${i + 1}`}
                       title={src.title}
+                      loading="lazy"
                       className="w-[1rem]  sm:w-[2rem] md:w-[3rem] lg:w-[4rem] object-cover   "
                     />
                   </a>
@@ -309,6 +311,7 @@ export default function ProjectDetails() {
                   <img
                     src={project.tabletImage}
                     alt="tablet"
+                    loading="lazy"
                     className=" w-full h-full rounded-2xl  border-4 border-gray-500 dark:border-gray-400  "
                   />
                 </div>
@@ -316,6 +319,7 @@ export default function ProjectDetails() {
                   <img
                     src={project.phoneImage}
                     alt="phone"
+                    loading="lazy"
                     className="w-full h-full rounded-2xl  border-4 border-gray-500 dark:border-gray-400  "
                   />
                 </div>
@@ -333,6 +337,7 @@ export default function ProjectDetails() {
                   <img
                     src={project.phoneImage1}
                     alt="phone1"
+                    loading="lazy"
                     className="   w-full h-full  justify-self-center border-4 border-gray-500 dark:border-gray-400  
                   rounded-2xl"
                   />
@@ -341,6 +346,7 @@ export default function ProjectDetails() {
                   <img
                     src={project.phoneImage2}
                     alt="phone2"
+                    loading="lazy"
                     className="  w-full h-full justify-self-center border-4 border-gray-500  dark:border-gray-400  
                   rounded-2xl"
                   />

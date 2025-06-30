@@ -91,6 +91,7 @@ export default function Certifications() {
                   <img
                     src={cert.image}
                     alt={`${cert.title} certificate`}
+                    loading="lazy"
                     className="w-3/4 max-w-md mx-auto rounded-lg  border border-gray-300 dark:border-gray-600 hover:shadow-lg transition-shadow"
                   />
                 </a>

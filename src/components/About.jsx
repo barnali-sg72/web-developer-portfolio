@@ -48,16 +48,21 @@ export default function About() {
         </h2>
 
         <p className=" text-slate-700 dark:text-slate-300 mb-5 text-sm sm:text-base leading-relaxed">
-          I am a Web Developer / Full-Stack Engineer with 18+ years of
-          experience designing, building, and maintaining robust web
-          applications and enterprise systems. Proficient in both frontend and
-          backend development, with hands-on expertise in modern technologies
-          including React, JavaScript, TypeScript, HTML, CSS, Node.js, Java
-          Spring Boot, Python, Golang and various databases. Skilled in building
-          scalable solutions, integrating APIs, and deploying microservices
-          using tools like Docker, Kubernetes, Kafka, and AWS. Known for strong
-          problem solving skills, excellent communication, a collaborative
-          mindset, and a passion for continuous learning.
+          I’m a freelance Web Developer and former Full-Stack Software Engineer
+          with 18+ years of experience designing and building scalable,
+          user-friendly digital experiences. I specialize in creating fast,
+          responsive, and beautifully designed websites and web apps using
+          React, Tailwind CSS, JavaScript, and Node.js. With a strong foundation
+          in backend systems, cloud deployment, and API integration, I bring
+          both technical precision and creative flexibility to every project.
+          Whether you need a polished portfolio, a modern landing page, or a
+          full-stack web application, I bring sharp problem-solving skills,
+          clear communication, and an eye for detail to every project.
+        </p>
+        <p className=" text-slate-700 dark:text-slate-300 mb-5 text-sm sm:text-base leading-relaxed">
+          Outside of coding and design, you’ll find me painting, exploring UI
+          trends, or experimenting with creative ways to bring tech and art
+          together.
         </p>
       </motion.div>
 
@@ -75,7 +80,7 @@ export default function About() {
           <ul className="list-none flex flex-col  gap-y-5   my-3 ">
             <li className="  shadow-lg  shadow-slate-300 hover:shadow-slate-500/30  dark:[box-shadow:2px_2px_25px_rgba(2,6,23,0.5)] rounded-2xl p-10 w-full  bg-white dark:bg-slate-800">
               <h4 className=" font-header  text-indigo-700 dark:text-indigo-400 font-bold text-base md:text-xl">
-                Web Developer | Software Engineer
+                Full-Stack Web Developer & Engineer
               </h4>
               <h5 className="text-xs sm:text-sm leading-relaxed text-cyan-600 dark:text-cyan-300 font-semibold">
                 Customer Care Inc. (CCI) &nbsp;&#8226;&nbsp; February 2006 -
@@ -88,8 +93,8 @@ export default function About() {
                   independently and in small agile teams using{" "}
                   <strong>
                     React, Node.js, Java Spring Boot, Golang and Oracle
-                  </strong>
-                  .
+                  </strong>{" "}
+                  often working independently or in small agile teams.
                 </li>
                 <li>
                   Delivered web portals and admin tools for major AT&T platforms
@@ -97,19 +102,20 @@ export default function About() {
                   and operational efficiency.
                 </li>
                 <li>
-                  Built and integrated <strong>REST APIs</strong> to connect
-                  services across departments using{" "}
-                  <strong>Java Spring Boot, Kafka, Python and Postgres</strong>.
+                  Built and integrated <strong>RESTful APIs</strong> to connect
+                  services, streamline data flow, and support real-time features
+                  using
+                  <strong> Spring Boot, Kafka, Python, and Postgres</strong>.
                 </li>
                 <li>
-                  Owned UI development using{" "}
-                  <strong>HTML5, CSS, Bootstrap, JQuery</strong>, ensuring
-                  mobile responsiveness and accessibility.
+                  Led UI development using{" "}
+                  <strong>HTML5, CSS, React, Bootstrap, JQuery</strong>,
+                  ensuring mobile responsiveness and accessibility.
                 </li>
                 <li>
-                  Familiar with end-to-end deployment and hosting on{" "}
-                  <strong>AWS</strong> using{" "}
-                  <strong>Docker, Kubernetes, GitHub</strong>.
+                  Managed end-to-end deployment with{" "}
+                  <strong>AWS, Docker, and Kubernetes</strong>, including
+                  version control using <strong>GitHub</strong>.
                 </li>
               </ul>
             </li>
@@ -134,6 +140,11 @@ export default function About() {
               </ul>
             </li>
           </ul>
+          {/*<p className="mt-3 text-sm italic text-slate-700 dark:text-slate-400">
+            My experience building full-stack applications in enterprise
+            settings now empowers me to deliver fast, secure, and user-focused
+            web solutions as a freelance developer.
+          </p>*/}
         </div>
       </motion.div>
     </section>

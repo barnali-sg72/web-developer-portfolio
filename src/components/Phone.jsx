@@ -13,7 +13,7 @@ export default function Phone({
       >
         <div className="device-frame">
           <div className="device-content">
-            <img src={imgSrc} alt={altText}></img>
+            <img src={imgSrc} alt={altText} loading="lazy"></img>
           </div>
           <div className="device-stripe"></div>
           <div className="device-header"></div>

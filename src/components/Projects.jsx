@@ -341,6 +341,7 @@ export default function Projects() {
                 src={project.projectImage}
                 alt="project"
                 className="w-full  "
+                loading="lazy"
               ></img>
             </div>
             <div className="flex items-end justify-center project-overlay absolute bottom-0 left-0 w-full  h-full bg-gradient-to-b from-transparent to-white dark:from-transparent dark:to-slate-800 opacity-0 hover:opacity-100 transition-opacity duration-500 ease-in-out">

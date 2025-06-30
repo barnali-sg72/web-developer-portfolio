@@ -29,6 +29,7 @@ export default function OverlappingIPhones({ imgSrc1, imgSrc2 }) {
                   src={imgSrc1}
                   alt="App Screenshot 1"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
             </div>
